@@ -1199,7 +1199,7 @@ About Us
   position: absolute;
   background-repeat: no-repeat;
   right: 0;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   z-index: 0;
 }
@@ -2291,5 +2291,36 @@ responsive
 @media (max-width: 892px) {
   .services:before {
     display: none;
+  }
+}
+
+.dhl-img{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 50px;
+  z-index: 999;
+}
+
+.dhl-img img {
+  border-radius: 30px;
+}
+
+.section-heading-2 {
+  margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .section-heading-2{
+    text-align: center;
+  }
+  .dhl-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .dhl-mobile {
+    display: none;
+    width: 80%;
   }
 }
